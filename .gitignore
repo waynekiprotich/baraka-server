@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Real credentials never leave the machine. Commit .env.example only.
+.env
+.env.*
+!.env.example
+
+# Uploaded and generated media
+uploads/
+
+.DS_Store

@@ -1,0 +1,62 @@
+ * Serving Flask app 'wsgi.py'
+ * Debug mode: off
+2026-09-05 12:57:02,437 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2026-09-05 12:57:02,437 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-05 12:57:09,893 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 12:57:09] "GET /api/v1/health HTTP/1.1" 200 -
+2026-09-05 12:57:09,915 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 12:57:09] "GET /uploads/demo-01.png HTTP/1.1" 200 -
+2026-09-05 12:57:09,930 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 12:57:09] "GET /uploads/demo-01_thumb.png HTTP/1.1" 200 -
+2026-09-05 12:57:43,151 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 12:57:43] "[36mGET /api/v1/settings HTTP/1.1[0m" 304 -
+2026-09-05 12:57:44,501 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 12:57:44] "[36mGET /api/v1/gallery/categories HTTP/1.1[0m" 304 -
+2026-09-05 12:57:44,517 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 12:57:44] "GET /uploads/demo-01_thumb.png HTTP/1.1" 200 -
+2026-09-05 12:57:44,517 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 12:57:44] "GET /uploads/demo-03_thumb.png HTTP/1.1" 200 -
+2026-09-05 12:57:44,517 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 12:57:44] "GET /uploads/demo-04_thumb.png HTTP/1.1" 200 -
+2026-09-05 12:57:44,517 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 12:57:44] "GET /uploads/demo-02_thumb.png HTTP/1.1" 200 -
+2026-09-05 12:57:44,520 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 12:57:44] "GET /uploads/demo-05_thumb.png HTTP/1.1" 200 -
+2026-09-05 12:57:44,530 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 12:57:44] "GET /uploads/demo-06_thumb.png HTTP/1.1" 200 -
+2026-09-05 12:57:44,530 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 12:57:44] "GET /uploads/demo-07_thumb.png HTTP/1.1" 200 -
+2026-09-05 12:57:44,530 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 12:57:44] "GET /uploads/demo-08_thumb.png HTTP/1.1" 200 -
+2026-09-05 12:57:46,294 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 12:57:46] "[36mGET /api/v1/gallery?page=1&per_page=12 HTTP/1.1[0m" 304 -
+2026-09-05 13:01:09,916 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:01:09] "[31m[1mPOST /api/v1/auth/refresh HTTP/1.1[0m" 401 -
+2026-09-05 13:01:10,619 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:01:10] "[36mGET /api/v1/settings HTTP/1.1[0m" 304 -
+2026-09-05 13:01:20,111 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:01:20] "POST /api/v1/auth/login HTTP/1.1" 200 -
+2026-09-05 13:01:23,734 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:01:23] "GET /api/v1/admin/stats HTTP/1.1" 200 -
+2026-09-05 13:01:27,591 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:01:27] "GET /api/v1/admin/stats HTTP/1.1" 200 -
+2026-09-05 13:01:33,879 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:01:33] "GET /api/v1/admin/news?page=1&per_page=20 HTTP/1.1" 200 -
+2026-09-05 13:01:36,088 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:01:36] "GET /api/v1/admin/stats HTTP/1.1" 200 -
+2026-09-05 13:01:40,056 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:01:40] "[35m[1mDELETE /api/v1/admin/news/4 HTTP/1.1[0m" 204 -
+2026-09-05 13:01:41,443 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:01:41] "GET /api/v1/admin/news?page=1&per_page=20 HTTP/1.1" 200 -
+2026-09-05 13:01:43,637 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:01:43] "[35m[1mDELETE /api/v1/admin/news/3 HTTP/1.1[0m" 204 -
+2026-09-05 13:01:45,008 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:01:45] "GET /api/v1/admin/news?page=1&per_page=20 HTTP/1.1" 200 -
+2026-09-05 13:01:46,219 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:01:46] "[33mDELETE /api/v1/admin/news/3 HTTP/1.1[0m" 404 -
+2026-09-05 13:01:49,548 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:01:49] "[35m[1mDELETE /api/v1/admin/news/2 HTTP/1.1[0m" 204 -
+2026-09-05 13:01:50,932 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:01:50] "GET /api/v1/admin/news?page=1&per_page=20 HTTP/1.1" 200 -
+2026-09-05 13:02:02,032 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:02:02] "[35m[1mDELETE /api/v1/admin/news/1 HTTP/1.1[0m" 204 -
+2026-09-05 13:02:03,955 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:02:03] "GET /api/v1/admin/news?page=1&per_page=20 HTTP/1.1" 200 -
+2026-09-05 13:02:11,581 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:02:11] "GET /api/v1/admin/events?page=1&per_page=20 HTTP/1.1" 200 -
+2026-09-05 13:02:14,741 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:02:14] "GET /api/v1/news/categories HTTP/1.1" 200 -
+2026-09-05 13:02:14,743 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:02:14] "GET /api/v1/admin/stats HTTP/1.1" 200 -
+2026-09-05 13:02:16,380 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:02:16] "[36mGET /api/v1/events?upcoming=true&per_page=6 HTTP/1.1[0m" 304 -
+2026-09-05 13:02:16,408 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:02:16] "GET /api/v1/news?page=1&per_page=9 HTTP/1.1" 200 -
+2026-09-05 13:02:24,751 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:02:24] "GET /api/v1/admin/gallery/categories HTTP/1.1" 200 -
+2026-09-05 13:02:25,834 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:02:25] "GET /api/v1/admin/gallery/images?per_page=100 HTTP/1.1" 200 -
+2026-09-05 13:02:28,084 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:02:28] "GET /api/v1/admin/stats HTTP/1.1" 200 -
+2026-09-05 13:16:09,706 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:16:09] "GET /api/v1/admin/gallery/categories HTTP/1.1" 200 -
+2026-09-05 13:16:10,328 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:16:10] "GET /api/v1/admin/stats HTTP/1.1" 200 -
+2026-09-05 13:16:11,671 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:16:11] "GET /api/v1/admin/enquiries?per_page=50&status=new HTTP/1.1" 200 -
+2026-09-05 13:16:12,983 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:16:12] "GET /api/v1/admin/stats HTTP/1.1" 200 -
+2026-09-05 13:16:15,088 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:16:15] "GET /api/v1/admin/enquiries?per_page=50&status=read HTTP/1.1" 200 -
+2026-09-05 13:16:15,594 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:16:15] "GET /api/v1/admin/enquiries?per_page=50&status=archived HTTP/1.1" 200 -
+2026-09-05 13:16:16,407 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:16:16] "GET /api/v1/admin/enquiries?per_page=50 HTTP/1.1" 200 -
+2026-09-05 13:16:17,135 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:16:17] "GET /api/v1/admin/settings HTTP/1.1" 200 -
+2026-09-05 13:16:19,448 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:16:19] "GET /api/v1/admin/stats HTTP/1.1" 200 -
+2026-09-05 13:16:42,001 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:16:42] "[36mGET /api/v1/events?upcoming=true&per_page=2 HTTP/1.1[0m" 304 -
+2026-09-05 13:16:42,006 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:16:42] "GET /api/v1/news?per_page=3 HTTP/1.1" 200 -
+2026-09-05 13:16:42,584 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:16:42] "[36mGET /api/v1/gallery?per_page=6 HTTP/1.1[0m" 304 -
+2026-09-05 13:16:43,361 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:16:43] "POST /api/v1/auth/refresh HTTP/1.1" 200 -
+2026-09-05 13:16:44,330 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:16:44] "GET /api/v1/auth/me HTTP/1.1" 200 -
+2026-09-05 13:16:45,303 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:16:45] "GET /api/v1/auth/me HTTP/1.1" 200 -
+2026-09-05 13:16:46,505 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:16:46] "GET /api/v1/admin/settings HTTP/1.1" 200 -
+2026-09-05 13:16:48,784 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:16:48] "GET /api/v1/admin/stats HTTP/1.1" 200 -
+2026-09-05 13:17:02,810 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:17:02] "GET /api/v1/admin/stats HTTP/1.1" 200 -
+2026-09-05 13:17:06,343 INFO werkzeug 127.0.0.1 - - [05/Sep/2026 13:17:06] "GET /api/v1/admin/stats HTTP/1.1" 200 -
